@@ -1,0 +1,186 @@
+*, *:before, *:after {
+  box-sizing:       inherit;
+}
+
+/*helper classes*/
+
+.clear:after {
+  visibility:       hidden;
+  display:          block;
+  font-size:        0;
+  content:          " ";
+  clear:            both;
+  height:           0;
+}
+
+.visuallyhidden {
+  position:         absolute;
+  overflow:         hidden;
+  clip:             rect(0 0 0 0);
+  height:           1px; width: 1px;
+  margin:           -1px; padding: 0; border: 0;
+}
+
+.left{
+  float:            left;
+}
+
+.right{
+  float:           right;
+}
+/* end helper classes*/
+
+html{
+  background:       #fff;
+
+}
+
+.wrapper{
+  font-family:      "Minion", Georgia, Serif;
+  font-size:        100%;
+}
+
+.page-title{
+  display:          inline-block;
+  postion:          absolute;
+  float:            left;
+
+}
+
+.page-title a{
+  list-style:       none;
+  font-family:      "Brandon", "Futura", Sans-Serif;
+  font-size:        90%;
+  margin:           0;
+  padding:          .3em .4em .3em .4em;
+  text-decoration:  none;
+  color:            #333;
+
+}
+
+.page-title a:link{
+  margin:           0;
+  padding:          .3em .4em .3em .4em;
+  text-decoration:  none;
+  color:            #333;
+}
+
+.page-title a:hover{
+  margin:           0;
+  padding:          .3em .4em .3em .4em;
+  text-decoration:  none;
+  color:            #B4443C;
+}
+
+.main-nav ul {
+  list-style:       none;
+  margin:           0;
+  padding:          .3em .9em .3em .9em;
+}
+
+.main-nav ul li {
+  margin:           0;
+  padding:          .3em .9em .3em .9em;
+  display:          inline;
+}
+
+.main-nav ul a:link{
+  margin:           0;
+  padding:          .3em .9em .3em .9em;
+  text-decoration:  none;
+  font-weight:      medium;
+  font-size:        20px;
+  color:            #333;
+}
+
+.main-nav ul a:visited{
+  margin:           0;
+  padding:          .3em .9em .3em .9em;
+  text-decoration:  none;
+  color:            #333;
+}
+
+.main-nav ul a:active{
+  margin:           0;
+  padding:          .3em .9em .3em .9em;
+  text-decoration:  none;
+  color:            #333;
+}
+
+.main-nav ul a:hover{
+  margin:           0;
+  padding:          .3em .9em .3em .9em;
+  text-decoration:  none;
+  color:            #B4443C;
+}
+
+article, figure{
+  width:            50%;
+
+}
+
+article h2{
+  margin:           2.5em;
+  padding:          0;
+  text-decoration:  none;
+  font-family:      "Brandon", "Futura", Sans-Serif;
+  font-weight:      normal;
+  font-size:        30px;
+  color:            #333;
+
+}
+
+article p{
+  margin:           0 0 2.5em 0;
+  padding:          0;
+  line-height:      30.5px;
+  text-decoration:  none;
+  font-family:      "Minion", Georgia, Serif;
+  font-weight:      lighter;
+  font-size:        18px;
+  color:            #333;
+}
+
+a.button{
+  position:        absolute;
+  float;           left;
+  padding:         .7em 1.4em .7em 1.4em;
+  border:          solid 2px #333;
+  text-decoration: none;
+  font-family:     brandon-grotesque,Helvetica neue,Arial,sans-serif;
+  font-weight:     200;
+  font-size:       18px;
+  color:           #333;
+}
+
+a.button:hover{
+  padding:         .7em 1.4em .7em 1.4em;
+  border:          solid 2px #333;
+  text-decoration: none;
+  font-family:     brandon-grotesque,Helvetica neue,Arial,sans-serif;
+  font-weight:     200;
+  font-size:       18px;
+  color:           #fff;
+  background:      #333;
+}
+
+
+figure {
+  max-width:       577px;
+  max-height:      575px;
+  overflow:        hidden;
+  margin:          0;
+
+}
+
+footer{
+  margin:           0;
+  padding:          .3em .4em .3em .4em;
+  line-height:      30px;
+  text-decoration:  none;
+  font-family:      "Minion", Georgia, Serif;
+  font-weight:      lighter;
+  font-size:        18px;
+  color:            #333;
+
+}
