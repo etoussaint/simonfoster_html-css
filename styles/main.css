@@ -36,38 +36,35 @@ html{
 }
 
 .wrapper{
-  font-family:      "Minion", Georgia, Serif;
   font-size:        100%;
+}
+
+header {
+  padding:          2em 2em 6em 2em;
 }
 
 .page-title{
   display:          inline-block;
-  postion:          absolute;
-  float:            left;
-
 }
 
-.page-title a{
+.page-title{
   list-style:       none;
   font-family:      "Brandon", "Futura", Sans-Serif;
-  font-size:        90%;
   margin:           0;
-  padding:          .3em .4em .3em .4em;
+  padding:          none;
   text-decoration:  none;
   color:            #333;
 
 }
 
-.page-title a:link{
+.page-title:link{
   margin:           0;
   padding:          .3em .4em .3em .4em;
   text-decoration:  none;
   color:            #333;
 }
 
-.page-title a:hover{
-  margin:           0;
-  padding:          .3em .4em .3em .4em;
+.page-title:hover{
   text-decoration:  none;
   color:            #B4443C;
 }
@@ -75,18 +72,17 @@ html{
 .main-nav ul {
   list-style:       none;
   margin:           0;
-  padding:          .3em .9em .3em .9em;
 }
 
 .main-nav ul li {
   margin:           0;
-  padding:          .3em .9em .3em .9em;
   display:          inline;
+  font-family:      "Minion", Georgia, Serif;
+  padding:          .3em 0em .3em 3.6em;
 }
 
 .main-nav ul a:link{
   margin:           0;
-  padding:          .3em .9em .3em .9em;
   text-decoration:  none;
   font-weight:      medium;
   font-size:        20px;
@@ -95,26 +91,23 @@ html{
 
 .main-nav ul a:visited{
   margin:           0;
-  padding:          .3em .9em .3em .9em;
   text-decoration:  none;
   color:            #333;
 }
 
 .main-nav ul a:active{
   margin:           0;
-  padding:          .3em .9em .3em .9em;
   text-decoration:  none;
   color:            #333;
 }
 
 .main-nav ul a:hover{
   margin:           0;
-  padding:          .3em .9em .3em .9em;
   text-decoration:  none;
   color:            #B4443C;
 }
 
-article, figure{
+article, .image{
   width:            50%;
 
 }
@@ -139,6 +132,7 @@ article p{
   font-weight:      lighter;
   font-size:        18px;
   color:            #333;
+  font-family:      "Minion", Georgia, Serif;
 }
 
 a.button{
@@ -165,12 +159,18 @@ a.button:hover{
 }
 
 
-figure {
-  max-width:       577px;
+.image {
   max-height:      575px;
   overflow:        hidden;
   margin:          0;
 
+}
+/* .image background image*/
+.yellow {
+  display:         block;
+  background:      #fbed20 url(../images/gif.gif) bottom right no-repeat;
+  height:          575px;
+  background-size: 300% auto;
 }
 
 footer{
