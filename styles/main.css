@@ -26,7 +26,7 @@
 }
 
 .right{
-  float:           right;
+  float:            right;
 }
 /* end helper classes*/
 
@@ -39,8 +39,9 @@ html{
   font-size:        100%;
 }
 
-header {
-  padding:          2em 2em 6em 2em;
+.page-header {
+  display:          block;
+  padding:          5em 3.5em 5em 3.5em;
 }
 
 .page-title{
@@ -78,7 +79,7 @@ header {
   margin:           0;
   display:          inline;
   font-family:      "Minion", Georgia, Serif;
-  padding:          .3em 0em .3em 3.6em;
+  padding:          .3em 0em .3em 5em;
 }
 
 .main-nav ul a:link{
@@ -124,7 +125,7 @@ article h2{
 }
 
 article p{
-  margin:           0 0 2.5em 0;
+  margin:           0 4.2em 4;
   padding:          0;
   line-height:      30.5px;
   text-decoration:  none;
@@ -138,6 +139,7 @@ article p{
 a.button{
   position:        absolute;
   float;           left;
+  margin:          4.2em;
   padding:         .7em 1.4em .7em 1.4em;
   border:          solid 2px #333;
   text-decoration: none;
@@ -160,7 +162,7 @@ a.button:hover{
 
 
 .image {
-  max-height:      575px;
+  max-height:      635px;
   overflow:        hidden;
   margin:          0;
 
@@ -169,18 +171,108 @@ a.button:hover{
 .yellow {
   display:         block;
   background:      #fbed20 url(../images/gif.gif) bottom right no-repeat;
-  height:          575px;
+  height:          635px;
   background-size: 300% auto;
 }
 
-footer{
-  margin:           0;
-  padding:          .3em .4em .3em .4em;
-  line-height:      30px;
-  text-decoration:  none;
-  font-family:      "Minion", Georgia, Serif;
-  font-weight:      lighter;
-  font-size:        18px;
-  color:            #333;
+.teal{
+  display:         block;
+  background:      #62e3e1 url(../images/jpeg-4.jpg) bottom left no-repeat;
+  height:          635px;
+  background-size: 300% auto;
+}
 
+.pink{
+  display:         block;
+  background:      #d1d7eb url(../images/gif-4.gif) bottom right no-repeat;
+  height:          635px;
+  background-size: 300% auto;
+}
+
+.margo{
+  display:         block;
+  background:      #e3dfdc url(../images/jpeg-3.jpg) top left no-repeat;
+  height:          635px;
+  background-size: 300% auto;
+  background-position: 0% 0% 35% 0%;
+}
+
+.lucian{
+  display:         block;
+  background:      #f55555 url(../images/gif-5.gif) bottom right no-repeat;
+  height:          635px;
+  background-size: 250% auto;
+}
+
+.hack{
+  display:         block;
+  background:      #326679 url(../images/jpeg-2.jpg) top left no-repeat;
+  height:          635px;
+  background-size: 300% auto;
+  background-position: 0% 0% 35% 0%;
+}
+
+.free{
+  display:         block;
+  background:      #fbc495 url(../images/jpeg-1.jpg) bottom right no-repeat;
+  height:          635px;
+  background-size: 300% auto;
+}
+
+.play{
+  display:         block;
+  background:      #2f2928 url(../images/gif-2.gif) top left no-repeat;
+  height:          635px;
+  background-size: 300% auto;
+  background-position: 0% 0% 35% 0%;
+}
+
+.ham{
+  display:         block;
+  background:      #05c9ed url(../images/gif-3.gif) bottom right no-repeat;
+  height:          635px;
+  background-size: 300% auto;
+}
+
+.bib{
+  display:         block;
+  background:      #488b96 url(../images/jpeg.jpg) top left no-repeat;
+  height:          635px;
+  background-size: 300% auto;
+  background-position: 0% 0% 35% 0%;
+}
+
+.monty{
+  display:         block;
+  background:      #222  url(../images/monty.gif) bottom right no-repeat;
+  height:          635px;
+  background-size: 300% auto;
+}
+
+.DJ{
+  display:         block;
+  background:      #9de1fc url(../images/gif-1.gif) top left no-repeat;
+  height:          635px;
+  background-size: 300% auto;
+  background-position: 0% 0% 35% 0%;
+}
+
+footer{
+  display:         block;
+  padding:         none;
+  width:           100%;
+  font-family:     "Minion", Georgia, Serif;
+  font-weight:     lighter;
+  font-size:       20px;
+  color:           #000;
+}
+
+.footer {
+  background:      #fff;
+  height:          100px;
+  margin:          auto;
+  width:           500px;
+  text-align:      center;
+  padding:         6em;
+  color:           #000;
 }
