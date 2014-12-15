@@ -117,7 +117,7 @@ html{
 }
 
 article, .image{
-  width:            50%;
+  width:            100%;
 
 }
 
@@ -129,6 +129,7 @@ article h2{
   font-weight:      normal;
   font-size:        30px;
   color:            #333;
+  background:       none;
 
 }
 
@@ -142,6 +143,7 @@ article p{
   font-size:        18px;
   color:            #333;
   font-family:      "Minion", Georgia, Serif;
+  background:       none;
 }
 
 a.button{
@@ -155,6 +157,7 @@ a.button{
   font-weight:     200;
   font-size:       18px;
   color:           #333;
+  background:       none;
 }
 
 a.button:hover{
@@ -177,7 +180,6 @@ a.button:hover{
 }
 /* .image background image*/
 .yellow {
-  display:         block;
   background:      #fbed20 url(../images/gif.gif) bottom right no-repeat;
   height:          635px;
   background-size: 300% auto;
