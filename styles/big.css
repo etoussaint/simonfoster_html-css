@@ -2,13 +2,6 @@
   box-sizing:       inherit;
 }
 
-/*media query
-@media (min-width: 1136px) {
-  article, .image {
-    width: 100%;
-  }
-
-  */
 
 /*helper classes*/
 
@@ -116,8 +109,10 @@ html{
   color:            #B4443C;
 }
 
-article, .image{
+.image{
   width:            100%;
+  margin:           -24em 0em 0em 0em;
+  z-index:          -1;
 
 }
 
@@ -144,6 +139,7 @@ article p{
   color:            #333;
   font-family:      "Minion", Georgia, Serif;
   background:       none;
+  z-index:          2;
 }
 
 a.button{
@@ -175,7 +171,8 @@ a.button:hover{
 .image {
   max-height:      635px;
   overflow:        hidden;
-  margin:          0;
+  margin:          -25em 0em -1em 0em;
+  z-index:         -1;
 
 }
 /* .image background image*/
@@ -212,7 +209,7 @@ a.button:hover{
   display:         block;
   background:      #f55555 url(../images/gif-5.gif) bottom right no-repeat;
   height:          635px;
-  background-size: 250% auto;
+  background-size: 300% auto;
 }
 
 .hack{
@@ -220,7 +217,7 @@ a.button:hover{
   background:      #326679 url(../images/jpeg-2.jpg) top left no-repeat;
   height:          635px;
   background-size: 300% auto;
-  background-position: 0% 0% 35% 0%;
+
 }
 
 .free{

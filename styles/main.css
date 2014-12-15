@@ -2,14 +2,6 @@
   box-sizing:       inherit;
 }
 
-/*media query
-@media (min-width: 1136px) {
-  article, .image {
-    width: 100%;
-  }
-
-  */
-
 /*helper classes*/
 
 .clear:after {
