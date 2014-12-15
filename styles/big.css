@@ -180,6 +180,7 @@ a.button:hover{
 }
 /* .image background image*/
 .yellow {
+  display:         block;
   background:      #fbed20 url(../images/gif.gif) bottom right no-repeat;
   height:          635px;
   background-size: 300% auto;
